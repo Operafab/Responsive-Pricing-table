@@ -1,0 +1,90 @@
+
+main{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  /* align-items: center; */
+  /* align-content: center; */
+  
+}
+
+
+.card{
+  /* border: 1px solid red; */
+  
+  border-radius: 13px;
+}
+
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.card h1{
+  font-size: 60px;
+}
+
+.card h1 span{
+  font-weight: 600;
+  font-size:20px;
+  
+}
+
+.one > header{
+  background-color: rgba(25, 114, 120, 255);
+  width: 100%;
+}
+.two > header{
+  background-color: rgba(197, 70, 55, 255);
+  width: 100%;
+}
+.three > header{
+  background-color: #75163e;
+  width: 100%;
+}
+
+
+.one{
+  border-radius: 20px;
+}
+.two{
+  position: absolute;
+}
+.three{
+ 
+}
+
+
+
+.main_body{
+  background-color: rgba(238,221,213,255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 50px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+ul{
+  list-style-type: none;
+  width: 100%;
+}
+
+.button{
+  background-color: rgba(0, 0, 0, 0.648);
+  color: white;
+  padding: 10px 20px;
+}
